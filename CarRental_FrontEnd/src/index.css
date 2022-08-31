@@ -1,0 +1,719 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+body {
+  background-color: slategrey;
+}
+.navbar { 
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 5px solid #f2f2f2;
+}
+.navbar h1 {
+  color: dimgray;
+  min-width: 50px;
+  font-size: 5ch;
+  border-color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-family: "DejaVu Sans";
+}
+.btn{
+
+display: inline-block;
+border-radius: .4rem;
+font-weight: 1.3rem;
+cursor: pointer;
+padding: .3rem 1.2rem;
+background: burlywood;
+color: white;
+}
+.navbar .links {
+  color: #333;
+  font-size: 3ch;
+  margin-left: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar a {
+  color: #333;
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: burlywood;
+}
+.Logged {
+  padding: 0px;
+  display:grid;
+  align-items: center;
+  margin: 10 auto;
+}
+.Logged .links {
+  top: 0;left: 0;right: 0;
+  margin-left: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.Logged a {
+  margin-left: 60px;
+  text-decoration: none;
+  padding: 6px;
+  background-image: 
+  url(
+"Untitled2.png");
+  background-size: "cover";
+  height: 200vh;
+  
+
+  margin-top: -80px;
+  font-size:30px;
+  width: 150%;
+  background-repeat:repeat;
+}
+
+
+.content {
+  margin: 40px auto;
+  padding: 20px;
+}
+
+
+
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 35px;
+  color: burlywood;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: silver;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  cursor: pointer;
+  font-size: 3ch;
+}
+
+
+.home h1{
+  color: rgb(54, 54, 54);
+  font-size: 4ch;
+  text-align: center;
+  text-transform: uppercase;
+}
+.home {
+  text-align: center;
+  border-radius: 25px;
+  background: 	silver;
+  margin:  auto;
+  size: auto;
+  text-align: center;
+  width: 50%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 10px;
+  margin-top: 10px; 
+
+
+
+
+   /* text-align: left;
+  padding-top: 0rem;
+  overflow-x: hidden;
+
+  background-size: "cover";
+  background-repeat: repeat;
+  height: 100vh;
+  margin-top: 80px;
+  width: 103%;
+  margin:-4rem 0; */
+} 
+
+.home label {
+  text-align: left;
+  display:block;
+  color: black;
+  font-weight: bolder;
+  
+  margin: 0rem 5px;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.home input  {
+  
+  text-align: left;
+  font-size: 1rem;
+  width: 40%;
+  padding: 10px 10px;
+  margin: 10px 5px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.home .button {
+  padding: auto;
+  display: inline-block;
+  margin: 10px 5px;
+  font-size: 3ch;
+  cursor: pointer;
+  padding: .8rem 1.8rem;
+  background: black;
+  color: white;
+}
+.home .button:hover{
+  background-color: burlywood;
+}
+.Login label {
+  text-align: middle;
+  display: block;
+  color: #f1356d; 
+  margin: 10px 10px;
+
+}
+.Login input {
+  padding: 6px 20px;
+  margin: 10px 10px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.Login .button {
+  display: inline-block;
+  border-radius: .4rem;
+  font-weight: 1.5rem;
+  cursor: pointer;
+  padding: .8rem 1.8rem;
+  background: #f1356d;
+  color: white;
+}
+.Login {
+  background-image: 
+  url(
+"bg.jpg");
+  background-size: "cover";
+  height: 110vh;
+  
+
+  margin-top: -80px;
+  font-size:30px;
+  width: 102%;
+  background-repeat:repeat; 
+  
+}
+
+.service {
+ max-width: 10000px;
+ margin: auto;
+ background: #f2f2f2;
+ overflow: auto;
+}
+.service .box{
+margin: 5px;
+border: 1px solid #ccc;
+float: left;
+width: 420px;
+}
+
+.service .box .box-img{
+
+  width: 200%;  
+  height: auto;
+  }
+  .service .box .box-img img{
+  border-radius: 1rem;
+  object-fit: cover;
+  object-position: center;
+  }
+  .service button{
+    display: flex;
+    justify-content: center;
+    background: grey;
+    color: #fff;
+    border: 0;
+    padding: 10px 180px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px 10px;
+  }
+  .service .links {
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: auto;
+    justify-content: space-between;
+    align-items: center;
+    color: burlywood;
+  }
+  .service .box p {
+padding:0 10px;
+border: 1px solid var(--text-color);
+width: 58px;
+border-radius: 0.5rem;
+margin: 1rem 0 1rem;
+  }
+.service .box h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: orangered;
+  margin: 0.2;
+}
+.service button:hover {
+background: black;
+}
+
+.search  label,.region label,.create label,.create select{
+  font-size: 3ch;
+  text-align: left;
+  display: block;
+  color: burlywood;
+  font-weight: bolder;
+    margin: 10px 10px;
+}
+.search .region label{
+  font-size: 3ch;
+  text-align:center;
+  display: block;
+  color: burlywood;
+  font-weight: bolder;
+    margin: 10px 10px;
+}
+
+
+.search select,.region select {
+  width: 40%;
+  height: 50px;
+  font-size: 20px;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  
+}
+
+.search option,.region option,.create option{
+   
+  display: block;
+    margin: 10px 10px;
+}
+
+.search button,.region button,.create button{
+  size: 100ch;
+  background: burlywood;
+  color: #fff;
+  border: 0;
+  padding: 20px 20px;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 30px 0px;
+}
+.payment label{
+  font-size: 4ch;
+  font-weight: 800;
+  display: block;
+  color: burlywood;
+    
+}
+.payment h1,.payment span{
+  font-size: 3ch;
+  font-weight: 500;
+  display: block;
+  color: burlywood;
+    
+}
+
+.payment select,.payment input {
+  width:20%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  font-size: 20px;
+
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  
+}
+
+.payment button{
+  size: 100ch;
+  background: burlywood;
+  color: #fff;
+  border: 0;
+  padding: 20px 20px;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 30px 0px;
+}
+.payment button:hover {
+  background: steelblue;
+  }
+
+  .homenav {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    border-bottom: 3px solid #f2f2f2
+  }
+  .homenav h1 {
+    color: dimgray;
+    min-width: 50px;
+    font-size: 3.5ch;
+    border-color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: "DejaVu Sans";
+  }
+  .homenav .links {
+  
+    background-size: auto;
+    font-size: 3ch;
+    margin: 20px 30px;
+    margin-left: auto;
+    
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .homenav a {
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+  }
+  .homenav a:hover {
+    color: rgb(83, 83, 83);
+  }
+  .adminNav {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;  
+    border-bottom: 3px solid #f2f2f2
+    
+    
+  }
+  .adminNav h1 {
+    color: dimgray;
+    min-width: 50px;
+    font-size: 5ch;
+    border-color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: "DejaVu Sans";
+  }
+  .adminNav .links {
+    background-size: auto;
+    font-size: 3ch;
+    margin: 20px 30px;
+    margin-left: auto;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .adminNav a {
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+  }
+  .adminNav a:hover {
+    color: burlywood;
+  }
+.create button:hover
+{
+  background-color: steelblue;
+
+}
+
+.blog-preview{
+  border-radius: 25px;
+  background: 	silver;
+  margin:  auto;
+  size: auto;
+  text-align: center;
+  width: 50%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.Rent{
+  display: flex;
+  justify-content: center;
+  background: blue;
+  color: #fff;
+  border: 0;
+  padding: 5px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: auto;
+  font-family: "DejaVu Sans";
+}
+.Text{
+  /*margin: 10px 38px;*/
+  font-family: "DejaVu Sans";
+}
+.blog-preview button:hover {
+  background: black;
+}
+/*.content{*/
+/*  background: dimgrey;*/
+/*}*/
+/**/
+
+
+.blog-preview .image
+{
+width: 40%;
+
+}
+.add label,.edit label,.delete label{
+  font-size: 3ch;
+  display: block;
+  color: burlywood;
+  font-weight: bolder;
+    margin: 10px 10px;
+}
+
+.add select,.add input,.search input,.edit select,.edit input,.delete input{
+  width: 40%;
+  height: 50px;
+  font-size: 20px;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.add option{
+   
+  display: block;
+    margin: 10px 10px;
+}
+
+.add .submit button{
+  size: 100ch;
+  background: burlywood;
+  color: #fff;
+  border: 0;
+  padding: 20px 20px;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 30px 0px;
+}
+.add button:hover {
+  background: black;
+}
+.search button:hover {
+  background: black;
+}
+.edit button:hover {
+  background: black;
+}
+.delete button:hover {
+  background: black;
+}
+
+.add input{
+  width: 40%;
+  height: 50px;
+  font-size: 20px;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.customer label{
+  font-size: 3ch;
+  display: block;
+  color: burlywood;
+  font-weight: bolder;
+    margin: 10px 10px;
+}
+.customer select {
+  width: 40%;
+  height: 50px;
+  font-size: 20px;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  
+}
+.customer input{
+  width: 40%;
+  height: 50px;
+  font-size: 20px;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.customer option{
+   
+  display: block;
+    margin: 10px 10px;
+}
+.customer button {
+  background: burlywood;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  cursor: pointer;
+  font-size: 3ch;
+}
+.customer button:hover {
+  background: black;
+}
+.car button{
+  margin-left: 200px;
+  text-decoration: none;
+  padding: 6px;
+  display:inline-block;
+  background: burlywood;
+  color: #fff;
+  border: 0;
+  padding: 20px 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.car button:hover {
+  background: steelblue;
+}
+
+.Report {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Profile{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table {
+  border: 6px solid black;
+  font-size: 22.5px;
+  width: 100%;
+  height: 200px;
+  background-color: burlywood;
+}
+  
+th {
+  border-bottom: 10px solid black;
+}
+  
+td {
+  text-align: center;
+  text-decoration-color: burlywood;
+}
+.Admin label { font-size: 5ch;
+  text-align:center;
+  display: block;
+  color: burlywood;
+  font-weight: bolder;
+    margin: 10px 10px;}
+.preRep label{
+  font-size: 4ch;
+  font-weight: 800;
+  display: block;
+  color: burlywood;
+}
+.preRep input{
+  width:20%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  font-size: 20px;
+
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.preRep1 button{
+  margin-left: 150px;
+  background: burlywood;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  cursor: pointer;
+  font-size: 3ch;
+}
+.preRep1 button:hover{
+  background-color: black;
+}
+.preRep .Res button{
+  text-align:center;
+  background: burlywood;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  cursor: pointer;
+  font-size: 3ch;
+}
+.report button{
+  text-align:center;
+  background: burlywood;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  cursor: pointer;
+  font-size: 3ch;
+}
+
+.report button:hover{
+  background-color:black;
+}
+
+{
+
+
+}
